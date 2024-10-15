@@ -9,4 +9,9 @@ describe("adder", () => {
     assert.equal(result, 0);
   });
 
+  it("it should return addition for 2 numbers", () => {
+    const result = adder(1, 2);
+    assert.equal(result, 3);
+  });
+
 });
