@@ -14,4 +14,9 @@ describe("adder", () => {
     assert.equal(result, 3);
   });
 
+  it("should add 3 numbers", () => {
+    const result = add(1, 2, 2);
+    assert.equal(result, 5);
+  });
+
 });
